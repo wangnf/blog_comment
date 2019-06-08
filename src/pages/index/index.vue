@@ -19,6 +19,7 @@ import { toTabPage } from '@/utils/index'
 export default {
   data () {
     return {
+      date: '',
       count: 0,
       name: 'wnf',
       list: ['a', 'b', 'c']

@@ -1,12 +1,12 @@
-<template name="a01ad734">
-  <view class="_div data-v-6c0055ab app">
-    <view class="_div data-v-6c0055ab">{{name}}</view>
-    <view class="_ul data-v-6c0055ab">
-      <view wx:key="item" key="{{item}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_li data-v-6c0055ab">{{item}}</view>
+<template name="64b1cbbc">
+  <view class="_div data-v-4cf53cc1 app">
+    <view class="_div data-v-4cf53cc1">{{name}}</view>
+    <view class="_ul data-v-4cf53cc1">
+      <view wx:key="item" key="{{item}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_li data-v-4cf53cc1">{{item}}</view>
     </view>
-    <view class="_div data-v-6c0055ab">{{count}}</view> <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-6c0055ab">点击</button>
-    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_picker data-v-6c0055ab">
-      <view class="_view data-v-6c0055ab picker">当前选择: {{date}}</view>
-    </picker> <button class="_button data-v-6c0055ab btn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">跳转到log</button>
+    <view class="_div data-v-4cf53cc1">{{count}}</view> <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-4cf53cc1">点击</button>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_picker data-v-4cf53cc1">
+      <view class="_view data-v-4cf53cc1 picker">当前选择: {{date}}</view>
+    </picker> <button class="_button data-v-4cf53cc1 btn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">跳转到log</button>
   </view>
 </template>

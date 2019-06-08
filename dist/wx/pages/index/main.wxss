@@ -1,8 +1,8 @@
 @import "../../common/vendor.wxss";
 
-.app.data-v-6c0055ab {
+.app.data-v-4cf53cc1 {
   background: #999;
 }
-.app .btn.data-v-6c0055ab {
+.app .btn.data-v-4cf53cc1 {
   width: 300rpx;
 }
